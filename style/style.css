@@ -8,6 +8,9 @@
   margin: 20px auto 0;
   display: flex;
   align-items: stretch;
+  border: 2px solid black;
+  padding: 7px;	
+
 }
 .left-side {
   width: 25%;
@@ -61,4 +64,5 @@ ul {
 
 .white-text {
   color: white;
+
 }
