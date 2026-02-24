@@ -3,175 +3,191 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Резюме — Сончак Ярослав</title>
+    <title>Resume</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="page-container">
 
-    <aside class="left-side">
+    <div class="left-side">
 
-        <figure class="avatar">
-            <img src="img/photo.jpg" alt="Фото Сончак Ярослав" class="image">
-            <figcaption><bdi>Сончак Ярослав</bdi></figcaption>
-        </figure>
+        <div class="avatar">
+            <img src="img/photo.jpg" alt="photo" class="image">
+        </div>
 
-        <section id="aboutme">
-            <h2>Особисті дані</h2>
-            <hr>
+        <h1 id="aboutme">Особисті дані</h1>
+        <hr>
 
-            <address>
-                <p><strong>Ім'я:</strong> <bdi>Сончак Ярослав</bdi></p>
+        <ul>
+            <li>Ім'я
+                <ul>
+                    <li>Сончак Ярослав</li>
+                </ul>
+            </li>
 
-                <p><strong>Адреса:</strong><br>
-                    вул. Лісова 5,<wbr>
-                    с. Лісний Хлібичин,<wbr>
-                    Коломийський район,<wbr>
-                    Івано-Франківська область
-                </p>
+            <li>Адреса
+                <ul>
+                    <li>вул. Лісова 5, с. Лісний Хлібичин, Коломийський район, Івано-Франківська область</li>
+                </ul>
+            </li>
 
-                <p><strong>Телефон:</strong><br>
-                    <a href="tel:+380784589583" class="white-text">
-                        +380-78-45-89-583
-                    </a>
-                </p>
+            <li>Номер телефону
+                <ul>
+                    <li>
+                        <a href="tel:+380784589583" class="white-text">
+                            +380-78-45-89-583
+                        </a>
+                    </li>
+                </ul>
+            </li>
 
-                <p><strong>Email:</strong><br>
-                    <a href="mailto:ronaldo@gmail.com" class="white-text">
-                        ronaldo@gmail.com
-                    </a>
-                </p>
+            <li>Email
+                <ul>
+                    <li>
+                        <a href="mailto:ronaldo@gmail.com" class="white-text">
+                            ronaldo@gmail.com
+                        </a>
+                    </li>
+                </ul>
+            </li>
 
-                <p><strong>Дата народження:</strong>
-                    <time datetime="2007-11-20">20.11.2007</time>
-                </p>
-            </address>
-        </section>
+            <li>Дата народження
+                <ul>
+                    <li>20-11-2007</li>
+                </ul>
+            </li>
+        </ul>
 
-        <section>
-            <h2>Інтереси</h2>
-            <hr>
-            <ul>
-                <li>Спорт</li>
-                <li>Відеомонтаж</li>
-                <li>Відеоігри</li>
-                <li>Малювання</li>
-                <li>Кулінарія</li>
-            </ul>
-        </section>
+        <h2>Інтереси</h2>
+        <hr>
 
-        <section>
-            <h2>Мови</h2>
-            <hr>
-            <ul>
-                <li>Українська — <mark>Рідна мова</mark></li>
-                <li>Англійська — Добре</li>
-            </ul>
-        </section>
+        <ul>
+            <li>Спорт</li>
+            <li>Відеомонтаж</li>
+            <li>Відеоігри</li>
+            <li>Малювання</li>
+            <li>Кулінарія</li>
+        </ul>
 
-    </aside>
+        <h2>Мови</h2>
+        <hr>
 
-    <main class="right-side">
+        <ul>
+            <li>Українська: Рідна мова</li>
+            <li>Англійська: Добре</li>
+        </ul>
 
-        <header>
-            <hgroup>
-                <h1><bdi>Сончак Ярослав</bdi></h1>
-                <h3>Молодший спеціаліст з програмного забезпечення</h3>
-            </hgroup>
-            <hr>
-        </header>
+    </div>
 
-        <nav class="menu">
+
+    <div class="right-side">
+
+        <h1>Сончак Ярослав</h1>
+        <hr>
+
+        <div class="menu">
             <h2>Меню резюме</h2>
             <ul>
                 <li><a href="#aboutme">Особисті дані</a></li>
-                <li><a href="#experience">Досвід</a></li>
-                <li><a href="#education">Освіта</a></li>
-                <li><a href="#courses">Курси</a></li>
+                <li><a href="#experience">Досвід роботи</a></li>
+                <li><a href="#education">Освіта і кваліфікації</a></li>
+                <li><a href="#course">Курси</a></li>
                 <li><a href="#skills">Навички</a></li>
                 <li><a href="#portfolio">Портфоліо</a></li>
             </ul>
-        </nav>
+        </div>
 
-        <section id="experience">
-            <h2>Досвід роботи</h2>
-            <hr>
 
-            <article>
-                <header>
-                    <h3>Помічник електрика</h3>
-                    <p><em>Івано-Франківськ</em></p>
-                </header>
-                <p>Виконання базових завдань та допомога спеціалістам вищого рівня.</p>
-            </article>
+        <h2 id="experience">Досвід роботи</h2>
+        <hr>
 
-            <article>
-                <header>
-                    <h3>Графічний дизайнер</h3>
-                    <p><em>Робота з дому</em></p>
-                </header>
-                <p>Створення плакатів, банерів, логотипів та презентацій на замовлення.</p>
-            </article>
-        </section>
+        <ul>
+            <li>
+                <b>Помічник електрика</b>
+                <ul>
+                    <li class="place">Івано-Франківськ</li>
+                    <li>Виконання базових завдань та допомога спеціалістам вищого рівня</li>
+                </ul>
+            </li>
 
-        <section id="education">
-            <h2>Освіта і кваліфікації</h2>
-            <hr>
+            <li>
+                <b>Графічний дизайнер</b>
+                <ul>
+                    <li class="place">Робота з дому</li>
+                    <li>Створення плакатів, банерів, логотипів та презентацій на замовлення</li>
+                </ul>
+            </li>
+        </ul>
 
-            <article>
-                <header>
-                    <h3>Молодший спеціаліст</h3>
-                    <p><em>ВСП "Фаховий коледж електронних приладів ІФНТУНГ"</em></p>
-                </header>
-                <p>Спеціальність 121 — «Інженерія програмного забезпечення»</p>
-            </article>
-        </section>
 
-        <section id="courses">
-            <h2>Курси</h2>
-            <hr>
+        <h2 id="education">Освіта і кваліфікації</h2>
+        <hr>
 
-            <article>
-                <header>
-                    <h3>Англійська для IT</h3>
-                    <p><em>Мовна школа Speak Up (Івано-Франківськ)</em></p>
-                </header>
-            </article>
-        </section>
+        <ul>
+            <li>
+                <b>Молодший спеціаліст</b>
+                <ul>
+                    <li class="place">
+                        ВСП "Фаховий коледж електронних приладів ІФНТУНГ"
+                    </li>
+                    <li>
+                        Спеціальність 121 «Інженерія програмного забезпечення»
+                    </li>
+                </ul>
+            </li>
+        </ul>
 
-        <section id="skills">
-            <h2>Навички</h2>
-            <hr>
 
-            <ul>
-                <li>Python</li>
-                <li>C++</li>
-                <li>C</li>
-                <li>SQL</li>
-                <li>Java</li>
-                <li>Visual Basic</li>
-                <li>Adobe Photoshop</li>
-                <li>Adobe Illustrator</li>
-                <li>Canva</li>
-            </ul>
-        </section>
+        <h2 id="course">Курси</h2>
+        <hr>
 
-        <section id="portfolio">
-            <h2>Портфоліо</h2>
-            <hr>
+        <ul>
+            <li>
+                <b>Англійська для IT</b>
+                <ul>
+                    <li class="place">
+                        Мовна школа Speak Up (Івано-Франківськ)
+                    </li>
+                </ul>
+            </li>
+        </ul>
 
-            <ul>
-                <li><a href="lr1/index.html" class="btn">Лабораторна робота №1</a></li>
-                <li><a href="#" class="btn">Лабораторна робота №2</a></li>
-            </ul>
-        </section>
 
-        <footer>
-            <p>© <time datetime="2026">2026</time> <bdi>Сончак Ярослав</bdi></p>
-        </footer>
+        <h2 id="skills">Навички</h2>
+        <hr>
 
-    </main>
+        <ul>
+            <li>Python</li>
+            <li>C++</li>
+            <li>C</li>
+            <li>SQL</li>
+            <li>Java</li>
+            <li>Visual Basic</li>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Illustrator</li>
+            <li>Canva</li>
+        </ul>
+
+
+        <h2 id="portfolio">Портфоліо</h2>
+        <hr>
+
+        <ul>
+            <li>
+                <a href="lr1/index.html" class="btn">
+                    Лабораторна робота №1
+                </a>
+            </li>
+
+            <li>
+                <a href="#" class="btn">
+                    Лабораторна робота №2
+                </a>
+            </li>
+        </ul>
+
+    </div>
 
 </div>
 
